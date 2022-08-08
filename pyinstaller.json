@@ -80,6 +80,10 @@
   {
    "optionDest": "datas",
    "value": "C:/Users/breva/Pictures/deep dreamed/munty thing/blob.jpg;."
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "PIL.Image"
   }
  ],
  "nonPyinstallerOptions": {

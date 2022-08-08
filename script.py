@@ -1,7 +1,7 @@
-from random import randint
-from PIL import Image
 from base64 import decodebytes,encodebytes
-exec(decodebytes(encodebytes(b"""colors={(81,126,231),(255,229,229),(123,108,108),(206,78,78)}
+exec(decodebytes(encodebytes(b"""from random import randint
+from PIL import Image
+colors={(81,126,231),(255,229,229),(123,108,108),(206,78,78)}
 for i in range(randint(1,10)):rand={(randint(0,255),randint(0,255),randint(0,255))for i in range(len(colors))}
 cl=list(colors)
 cr=list(rand)
